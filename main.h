@@ -27,4 +27,6 @@ int print_chr(va_list arguments, char *buf, unsigned int ibuf);
 int print_str(va_list arguments, char *buf, unsigned int ibuf);
 int print_int(va_list arguments, char *buf, unsigned int ibuf);
 int ev_print_func(const char *s, int index);
+int print_bnr(va_list arguments, char *buf, unsigned int ibuf);
+char *fill_binary_array(char *binary, long int int_in, int isneg, int limit);
 #endif
