@@ -26,4 +26,5 @@ int print_buf(char *buf, unsigned int nbuf);
 int print_chr(va_list arguments, char *buf, unsigned int ibuf);
 int print_str(va_list arguments, char *buf, unsigned int ibuf);
 int print_int(va_list arguments, char *buf, unsigned int ibuf);
+int ev_print_func(const char *s, int index);
 #endif
